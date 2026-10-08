@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Como estudar? || Study.ly</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header class="navbar">
+
+        <div class="logo">
+
+            <img src="imagens/logo.png" alt="Logo do Study.ly">
+
+            <span>Study.ly</span>
+
+        </div>
+
+        <nav class="nav-topo">
+
+            <a href="index.html">← Início</a>
+
+            <a href="conteudos.html">Conteúdos</a>
+
+            <a href="tecnicas.html">Como estudar?</a>
+
+            <a href="motivacao.html">Motivação</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- CONTEÚDO PRINCIPAL -->
+
+    <main class="pagina-interna">
+
+        <header class="header-interno">
+
+            <h1>Como estudar programação?</h1>
+
+            <p>
+                Estudar programação não é tão difícil assim...
+            </p>
+
+        </header>
+
+
+        <!-- REGRA 80/20 -->
+
+        <section class="study-card">
+
+            <h2>📚 REGRA 80/20</h2>
+
+            <div class="rule">
+
+                <span class="theory">20% TEORIA</span>
+
+                <span class="plus">+</span>
+
+                <span class="practice">80% PRÁTICA</span>
+
+            </div>
+
+
+            <h3>Uma explicação curtinha:</h3>
+
+            <p>
+                Entenda o conceito antes de começar, mas não passe horas
+                apenas lendo. Em programação, você precisa colocar a mão
+                no código: testar, errar, corrigir e tentar novamente.
+            </p>
+
+        </section>
+
+
+        <!-- PRÁTICA -->
+
+        <section class="practice-section">
+
+            <h2>💻 AGORA, PRATIQUE.</h2>
+
+            <p>
+                Em vez de simplesmente estudar exercícios,
+                tente resolver desafios progressivos.
+            </p>
+
+
+            <!-- DESAFIO 1 -->
+
+            <div class="challenge green">
+
+                <span class="level">
+                    🟢 COMEÇANDO A PENSAR COMO UM PROGRAMADOR
+                </span>
+
+                <h3>🥪 Desafio: o sanduíche</h3>
+
+                <p>
+                    Você precisa fazer um sanduíche.
+                    Escreva, em ordem, todos os passos necessários
+                    para alguém preparar o sanduíche.
+                </p>
+
+
+                <div class="challenge-box">
+
+                    <strong>→ Desafio:</strong>
+
+                    <p>
+                        Transforme sua resposta em um algoritmo.
+                    </p>
+
+                </div>
+
+
+                <textarea
+                    placeholder="Escreva aqui os passos para preparar o sanduíche..."></textarea>
+
+
+                <details class="answer-details">
+
+                    <summary class="btn-toggle">
+                        Ver exemplo
+                    </summary>
+
+                    <div class="answer">
+
+                        <strong>Exemplo:</strong>
+
+                        <ol>
+
+                            <li>Pegar o pão.</li>
+
+                            <li>Cortar o pão.</li>
+
+                            <li>Colocar o recheio.</li>
+
+                            <li>Fechar o sanduíche.</li>
+
+                            <li>Servir.</li>
+
+                        </ol>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+
+            <!-- DESAFIO 2 -->
+
+            <div class="challenge yellow">
+
+                <span class="level">
+                    🟡 TRANSFORMANDO LÓGICA EM FLUXOGRAMA
+                </span>
+
+                <h3>🎢 Desafio: brinquedo</h3>
+
+                <p>
+                    Uma pessoa precisa verificar se pode entrar em um brinquedo.
+                    Ela precisa ter altura mínima de <strong>1,40 m</strong>.
+                </p>
+
+
+                <div class="challenge-box">
+
+                    <strong>→ Desafio:</strong>
+
+                    <p>
+                        Crie um fluxograma que determine se a pessoa
+                        pode ou não entrar.
+                    </p>
+
+                </div>
+
+
+                <div class="flowchart">
+
+                    <div class="flow start">
+                        INÍCIO
+                    </div>
+
+                    <div class="arrow">
+                        ↓
+                    </div>
+
+                    <div class="flow question">
+                        Altura ≥ 1,40 m?
+                    </div>
+
+                    <div class="flow-options">
+
+                        <div>
+
+                            <span>SIM</span>
+
+                            <div class="flow yes">
+                                Pode entrar!
+                            </div>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>NÃO</span>
+
+                            <div class="flow no">
+                                Não pode entrar.
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- DESAFIO 3 -->
+
+            <div class="challenge orange">
+
+                <span class="level">
+                    🟠 PRIMEIRO CÓDIGO
+                </span>
+
+                <h3>🐍 Desafio: nome e idade</h3>
+
+                <p>
+                    Crie um programa que peça o nome e a idade de uma pessoa
+                    e mostre uma mensagem com essas informações.
+                </p>
+
+
+                <div class="challenge-box">
+
+                    <strong>→ Aqui entram:</strong>
+
+                    <p>
+                        <code>input()</code> + variável + <code>print()</code>
+                    </p>
+
+                </div>
+
+
+                <pre><code>nome = input("Digite seu nome: ")
+idade = input("Digite sua idade: ")
+
+print("Olá,", nome)
+print("Você tem", idade, "anos.")</code></pre>
+
+            </div>
+
+
+            <!-- DESAFIO 4 -->
+
+            <div class="challenge red">
+
+                <span class="level">
+                    🔴 TENTE RESOLVER
+                </span>
+
+                <h3>🔢 Desafio: qual é o maior?</h3>
+
+                <p>
+                    Crie um programa que receba três números
+                    e descubra qual é o maior.
+                </p>
+
+
+                <div class="challenge-box">
+
+                    <strong>→ Dica:</strong>
+
+                    <p>
+                        Você precisará pensar em comparação e condições.
+                    </p>
+
+                </div>
+
+
+                <textarea
+                    placeholder="Tente escrever seu código aqui..."></textarea>
+
+
+                <details class="answer-details">
+
+                    <summary class="btn-toggle">
+                        Mostrar solução
+                    </summary>
+
+                    <div class="answer">
+
+                        <pre><code>numero1 = float(input("Digite o primeiro número: "))
+numero2 = float(input("Digite o segundo número: "))
+numero3 = float(input("Digite o terceiro número: "))
+
+maior = numero1
+
+if numero2 > maior:
+    maior = numero2
+
+if numero3 > maior:
+    maior = numero3
+
+print("O maior número é:", maior)</code></pre>
+
+                    </div>
+
+                </details>
+
+            </div>
+
+        </section>
+
+
+        <!-- MENSAGEM FINAL -->
+
+        <section class="final-message">
+
+            <h2>🚀 Continue praticando!</h2>
+
+            <p>
+                Você não precisa acertar tudo de primeira.
+                Programar é aprender a resolver problemas,
+                testar ideias e melhorar suas soluções.
+            </p>
+
+
+            <a href="conteudos.html" class="continue-btn">
+                📚 Ir para os conteúdos
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>Introdução à Programação • IFRN</p>
+
+    </footer>
+
+</body>
+
+</html>
